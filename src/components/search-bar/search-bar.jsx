@@ -1,8 +1,15 @@
-import { Paper } from "@mui/material"
+import { Paper, IconButton } from "@mui/material"
+import { colors } from '../../constants/colors'
+import { Search } from "@mui/icons-material"
 
 const SearchBar = () => {
   return (
-    <div>SearchBar</div>
+    <Paper component={'form'} sx={{border: `1px solid ${colors.secondary}`, pl: 2, boxShadow: 'none', borderRadius: 0}}>
+      <input type="text" placeholder="Search..." className="search-bar"/>
+      <IconButton>
+        <Search/>
+      </IconButton>
+    </Paper>
   )
 }
 
