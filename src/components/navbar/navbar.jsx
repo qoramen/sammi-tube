@@ -11,7 +11,7 @@ const Navbar = () => {
             alignItems={'center'}
             justifyContent={'space-between'}
             p={2}
-            sx={{ position: 'sticky', top: 0, zIndex: 999, backgroun: colors.primary }}
+            sx={{ position: 'sticky', top: 0, zIndex: 999, backgroun: colors.primary, height: '10vh' }}
         >
             <Link to={'/'}>
                 <img src={logo} alt="" height={30} />
