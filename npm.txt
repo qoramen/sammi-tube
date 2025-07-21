@@ -4,3 +4,5 @@ materila-ui
 materila-ui font
 materila-ui icon
 npm i moment
+npm i react-player
+yarn add react-render-html
